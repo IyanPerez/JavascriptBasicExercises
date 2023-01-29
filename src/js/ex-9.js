@@ -6,7 +6,7 @@ function result() {
   let counter = 0;
 
   for (let index = 0; index < phrase.length; index++) {
-    if ((phrase[index].toLocaleLowerCase() === "a" || phrase[index].toLocaleLowerCase() === "e" || phrase[index].toLocaleLowerCase() === "i" || phrase[index].toLocaleLowerCase() === "o" || phrase[index].toLocaleLowerCase() === "u")) {
+    if (phrase[index].toLocaleLowerCase() === "a" || phrase[index].toLocaleLowerCase() === "e" || phrase[index].toLocaleLowerCase() === "i" || phrase[index].toLocaleLowerCase() === "o" || phrase[index].toLocaleLowerCase() === "u") {
       counter += 1;
     } else {
       console.log("no vowel");
