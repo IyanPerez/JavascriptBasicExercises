@@ -1,3 +1,7 @@
+alert("<----EJERCICIO 5---->");
+
+console.log(bignumber());
+
 function bignumber(){
     let num1 = parseInt(prompt("insert the first number"));
     let num2 = parseInt(prompt("insert the second number"));
@@ -7,5 +11,3 @@ function bignumber(){
     else;
         return num2;
 }
-
-document.write(bignumber());

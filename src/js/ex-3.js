@@ -1,3 +1,4 @@
-let nombre = prompt("Please enter your name", "Albert Einstein");
+alert("<----EJERCICIO 3---->");
 
-document.write("Hola " + nombre)
+let nombre = prompt("Please enter your name", "Albert Einstein");
+console.log("Hola " + nombre)

@@ -1,6 +1,8 @@
+alert("<----EJERCICIO 2---->");
+
 let resultado=0;
 suma();
-document.write("La suma de 3+5 es: " + resultado);
+console.log("La suma de 3+5 es: " + resultado);
 
 function suma(){
     let numero1=3;

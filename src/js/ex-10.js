@@ -1,8 +1,10 @@
-// Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
+alert("<----EJERCICIO 10---->");
 
-const phrase = prompt("write phrase here");
+// const phrase = prompt("write phrase here");
 
-function result() {
+ex10();
+
+function ex10() {
     let count_a = 0;
     let count_e = 0;
     let count_i= 0;
@@ -32,5 +34,3 @@ function result() {
     console.log("La vocal 'O' ha aparecido: " + count_o + " veces");
     console.log("La vocal 'U' ha aparecido: " + count_u + " veces");
 }
-
-result();

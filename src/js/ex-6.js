@@ -1,6 +1,10 @@
-let num1 = prompt("insert the first number");
-let num2 = prompt("insert the second number");
-let num3 = prompt("insert the third number");
+alert("<----EJERCICIO 6---->");
+
+let number1 = prompt("insert the first number");
+let number2 = prompt("insert the second number");
+let number3 = prompt("insert the third number");
+
+console.log(bignumber(number1, number2, number3));
 
 function bignumber(n1, n2, n3){
 
@@ -16,5 +20,3 @@ function bignumber(n1, n2, n3){
         return n3;
     }
 }
-
-document.write(bignumber(num1, num2, num3));
